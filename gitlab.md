@@ -22,7 +22,9 @@ git pull origin master
 
 # 创建特性分支branch
 git checkout origin/master -b 'branch'
-
+#切换分支
+git checkout branch 
+ 再此分支上面若是开发时间过久建议同步一下代码避免代码之间的冲突
 
 # 开发新特性...
 # 提交代码
@@ -63,5 +65,3 @@ git rebase -i origin master
  git add .
  git rebase --continue
 ```
-
-[** Clone repository](https://gitlab.com/funxdata/forum/wikis/git_access)[Home](https://gitlab.com/funxdata/forum/wikis/home)[团队协作规范](https://gitlab.com/funxdata/forum/wikis/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E8%A7%84%E8%8C%83)[微服务架构带来的变化](https://gitlab.com/funxdata/forum/wikis/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%8F%98%E5%8C%96)[服务化架构流程及开发](https://gitlab.com/funxdata/forum/wikis/%E6%9C%8D%E5%8A%A1%E5%8C%96%E6%9E%B6%E6%9E%84%E6%B5%81%E7%A8%8B%E5%8F%8A%E5%BC%80%E5%8F%91)
